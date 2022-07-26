@@ -1,0 +1,21 @@
+This program makes 16 leds blining in different sequences.
+I used the following: module random, module time, python RPi.GPIO library,
+colorful output in terminal: simple_colors.
+
+Program is built from eleven modules connected together:
+from blinking1Leds import blink1 - 1 led blinking simulataneously 
+from blinking5Leds import blink5 - 5 leds blinking simulataneously
+from blink_10_leds import blink10 - 10 leds blinking simultaneously
+
+from Randomly_1_Blink import randomly_1_blink - 1 led blinking randomly
+from Randomly_2_Blink import randomly_2_blink - 2 leds blinking randomly
+from Randomly_3_Blink import randomly_3_blink - 3 leds blinking randomly
+from Randomly_4_Blink import randomly_4_blink - 4 leds blinking randomly
+from Randomly_5_Blink import randomly_5_blink - 5 leds blinking randomly
+from Randomly_6_Blink import randomly_6_blink - 6 leds blinking randomly
+from Randomly_7_Blink import randomly_7_blink - 7 leds blinking randomly
+
+movie:
+explaination:
+
+
